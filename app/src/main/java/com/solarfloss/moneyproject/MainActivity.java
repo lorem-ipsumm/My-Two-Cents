@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
         //img = (ImageView)findViewById(R.id.imageView);
         lay = (RelativeLayout)findViewById(R.id.activity_main);
 
+
+        //Use this to find the coordinates for a new confirm button
         lay.setOnTouchListener(new View.OnTouchListener(){
             public boolean onTouch(View v, MotionEvent event){
                 Log.i("Coords",(Float.toString(event.getX()) + "," + Float.toString(event.getY())));
