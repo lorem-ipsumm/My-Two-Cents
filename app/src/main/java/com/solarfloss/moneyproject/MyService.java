@@ -31,6 +31,7 @@ public class MyService extends Service{
         final Intent bitcoinFarm = getPackageManager().getLaunchIntentForPackage("cap.pw.bitcoin.farm");
 
 
+
         final String[][] appInfo = {
                 {"com.cakecodes.bitmaker","460","1402"},
                 {"com.free.bitcoin.maker","1232","1358"},
